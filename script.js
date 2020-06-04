@@ -83,9 +83,9 @@ function dft(x){
         }
         console.log(total);
         //caluclating frequency,phase and amplitude 
-        //k = frequency
-        let amp = Math.sqrt(total.a*total.a+total.b*total.b); // i guess its the magnitude
-        let phase = Math.atan2(total.b,total.a);
+        //k = frequency. k is the frequency
+        let amp = Math.sqrt(total.a*total.a+total.b*total.b); // amplitude is the magnitude
+        let phase = Math.atan2(total.b,total.a); //phase is the argument
         X[k] = {total,k,amp,phase};
         
     }
@@ -170,7 +170,7 @@ if(hasDrawn==true){
         time-=Math.PI*2
     }   
     drawArrows(0,0,1/X.length,0.00005,X);
-    //console.log("gaming")
+    //console.log("drawing")
     }else{
         ctx.strokeStyle = "black";
         ctx.fillStyle = "white";
