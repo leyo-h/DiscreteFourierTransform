@@ -19,7 +19,4 @@ DFT is prevalent in sound and signal analysis from being able to break a complic
 The discrete fourier transform is an application of fourier analysis which involves re-wrtiting a wave or function as an infinite sum of sine waves of every frequency. This is used in solving differential equations such as the heat equation to model how temperature changes accross an area.
 
 
-If you want to use it go to  : https://ninjutsufish.github.io/DiscreteFourierTransform
 
-
-By leo Harford
